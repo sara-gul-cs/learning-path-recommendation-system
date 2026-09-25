@@ -1,10 +1,10 @@
 # Learning Path Recommendation System
 
-## Objective
+Objective :
 Build a system to recommend personalized learning paths/courses for interns,
 based on past intern learning patterns (collaborative filtering).
 
-## Dataset
+ Dataset :
 A synthetic intern-course rating matrix: 15 interns × 8 courses (Python Basics,
 Data Analysis, Machine Learning, Deep Learning, SQL Fundamentals, Web
 Development, Cloud Computing, NLP Basics). Each intern has completed 3–5
@@ -31,7 +31,7 @@ sparsity (most cells empty) reflects how real learning-platform data looks.
 | Intern_5 | Data Analysis, SQL Fundamentals, Web Development | Cloud Computing |
 | Intern_11 | Deep Learning, SQL Fundamentals, Web Dev, Cloud Computing, NLP Basics | Machine Learning |
 
-## Important limitation (honest note)
+## Important limitation 
 An RMSE of 3.41 on a 1–5 rating scale is high — this reflects the small size
 and sparsity of this synthetic dataset (only 15 interns, ~40% of cells filled),
 not a flaw in the method itself. Matrix factorization needs substantially more
